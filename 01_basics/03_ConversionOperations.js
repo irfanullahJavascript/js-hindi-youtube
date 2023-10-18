@@ -25,5 +25,21 @@ let logedIn=Boolean(login)
  //String Conversions
  let someNumber =33
  let stringNumber=String(someNumber)
- console.log(stringNumber);
- console.log(typeof stringNumber);
+//  console.log(stringNumber);
+//  console.log(typeof stringNumber);
+
+//************************************************Operations********************************************************************
+// Number 
+let value=3
+let negValue=-value
+// console.log(negValue);
+//string
+let str1='irfan'
+let str2=" ullah"
+let str3=str1+str2
+// console.log(str3);
+let gameCounter=100
+gameCounter++
+console.log(gameCounter);
+//study purposes
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
