@@ -55,8 +55,51 @@
                 const obj3={...object1,...object2}  //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' } this will give you fine result
 
                 //when values come from database use this syntex. all come in array of object |means array man objects aye gye.
+                const users=[
+                    {
+                        id:1,
+                        "email":"irfanullah6537@gmail.com"
+                    },
+                    {
+                        id:1,
+                        "email":"irfanullah6537@gmail.com"
+                    },
+                    {
+                        id:1,
+                        "email":"irfanullah6537@gmail.com"
+                    },
+                    {
+                        id:1,
+                        "email":"irfanullah6537@gmail.com"
+                    }
+                ]
+                //now how to acess that value
+                users[0].email 
+
+                //Object.mathod....() ka ap jub bhii use kra gye es hmasha object btaye gye kon sa object
+                //now agr ap object ki keys ko lain chahta ho aor es pr loop lgana chhta ho to ap object.key() k through kr skta ho this will return you an array
                 
+                //how get keys from object.
+                console.log(Object.keys(anOtherUser))   // [ 'id', 'email', 'logedin' ]
+
+                ////how get values from object.
+                console.log(Object.values(anOtherUser))  //[ '123abc', 'irfankhan@gmail.com', false ]
+ 
+                //each enties seprate array |hr key value ka seprate array |not mostly use
+
+                console.log(Object.entries(anOtherUser))  //[[ 'id', '123abc' ],[ 'email', 'irfankhan@gmail.com' ],[ 'logedin', false ]]
+
+
+                //some time kise property ko use krna sa pehla hum pochta hai k kia ye peroerty exist krti hai agr han to?
+                console.log(anOtherUser.hasOwnProperty("email"))  //true
 
 
 
     console.log(obj3)
+
+
+
+
+
+    // ________________________________________________________________________________________________________________________________________________
+    // ___________________________________object destructurign __________________________________________________________________________
