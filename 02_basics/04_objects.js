@@ -103,3 +103,40 @@
 
     // ________________________________________________________________________________________________________________________________________________
     // ___________________________________object destructurign __________________________________________________________________________
+    //Object de-structure and JSON API
+
+
+    //de-structureing very intersting in react.
+    const course={
+        name:"js-hindi",
+        price:"999",
+        courseInstructure:"hitesh"
+    }
+    //now to access oject specicfic value
+    course.courseInstructure
+    //when you make your code clean for example if you want to use above value for each time you write course.courseInstructure
+
+    //so use this syntext    ||  const {value you want to extract}=object_name
+    const {courseInstructure}=course // now you can used that
+    const {courseInstructure:instructor}=course // emplise means you give your own name
+
+    console.log(courseInstructure)  //hitesh
+    console.log(instructor)  //hitesh
+
+
+
+    //lets discuss API  =>Values alway come in the fom of xml(old) BUT Now in json form
+
+    //json is actually javascript object without name  || but its key and value both in double qoutes
+    // {
+    //     "name":"irfanullah",
+    //     "email":"irfanullah@gmail.com",
+    // }
+
+    //some time we received API in Array
+    // [
+    //     {},
+    //     {},
+    //     {}
+    // ]
+    //json formator   /randomuser me api
