@@ -42,3 +42,69 @@ console.log(b); //500 global
 //////////////////Global scope____________________
 // In Global scope value are access able at any place inside and out side the function but block scope only used inside the block but not outside the block 
 
+
+
+
+
+
+
+
+
+
+// +++++++______________________________What is Nested Scope /closure_____________________+++++++++++++++
+
+function One(){
+    const userName="irfanullah";
+    function tow(){
+        const website="youtube"
+        console.log(userName)
+    }
+    // console.log(website) your cant use websit outside its Scope
+    tow()
+}
+One() //after one execuit it creat tow oject and vise versa
+
+
+// Note:: Child can access their parent properties now see in if els
+if(true){
+    const userName="irfan"
+    if(userName==='irfan')
+    {
+        const websit="youtube"
+        console.log(userName+' '+websit)
+    }
+    // console.log(websit) you cant access outside the scope
+}
+// console.log(userName) you cant access outside the scope
+
+
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++INeresting+++++++++++++++++++++++++++mini hoisting in javascript
+
+// function  addone(num){
+//     return num+1
+// }
+// addone(5)
+
+// const addTwo=function addtwo(num){
+//     return num+2
+// }
+// addTwo(6)
+//Both worked same but i f we use that like this way the 2nd method show us error 
+addone(5)
+function  addone(num){
+    return num+1
+}
+
+addTwo(6) //Cannot access 'addTwo' before initialization  |this hiosting in javascript
+const addTwo=function addtwo(num){
+    return num+2
+}
+
