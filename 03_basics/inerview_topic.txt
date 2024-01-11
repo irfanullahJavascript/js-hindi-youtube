@@ -1,0 +1,19 @@
+____________________________
+JavaScript Execution Context:
+_____________________________Means ak JavaScript file run kaisa hoti hai |ye ak progarm ko JavaScript kaisa chlata hai.
+
+JavaScript Execution Context  two different context
+
+1-Global Execution Context.
+Es man es file/program/code ka golbal exection context bnta hai.Aor esa "this" variable man rukh dye jata hai.
+Like browser ka Global exection envirnment different hota hai.jis ki wja sa ap k pass window global variable a rah hota hai
+while node engin ka global execution envirnment alg hota hai.es ka case man "this" k andr {} empty object a rah hota hai.
+
+2-Funtion execution context.
+3-Evol Execution context.
+
+How Execuite javascript code:
+Two ways of exection
+1-Memery creation phase
+    allowcate memory to your variable define in your program.
+2-execution phase 
