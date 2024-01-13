@@ -9,6 +9,7 @@ Es man es file/program/code ka golbal exection context bnta hai.Aor esa "this" v
 Like browser ka Global exection envirnment different hota hai.jis ki wja sa ap k pass window global variable a rah hota hai
 while node engin ka global execution envirnment alg hota hai.es ka case man "this" k andr {} empty object a rah hota hai.
 
+
 2-Funtion execution context.
 3-Evol Execution context.
 
