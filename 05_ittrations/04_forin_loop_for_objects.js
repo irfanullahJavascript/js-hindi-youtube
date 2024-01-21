@@ -8,7 +8,8 @@ const myObject={
 
 //for in loop ittrate object
     for (const key in myObject) {
-        // console.log(key) //return you all keys
+        // console.log(key) //return you all keys  |it will give you all keys
+    
         console.log(`${key} shortcut is for ${myObject[key]} `)
     }
 
@@ -20,7 +21,7 @@ const myObject={
 
     // yess you can ittrate on Array using forin loop
     
-//cam we ittrate on map using forin loop
+//can we ittrate on map using forin loop
 
     //no maps are not ittrateble you cant ittarte map using forin loop
 
